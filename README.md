@@ -5,7 +5,7 @@ and general information. The Tweetspage loads user cards from the database. By
 clicking on the Follow or Following buttons in the card, you can subscribe or
 unsubscribe to a user.
 
-<img src='scr/images/card-template'>
+<img src='/src/images/card-template.jpg'>
 
 # Technologies used:
 
