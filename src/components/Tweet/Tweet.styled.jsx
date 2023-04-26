@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrap = styled.div`
+export const Wrap = styled.li`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,10 @@ export const LogoImg = styled.img`
   position: absolute;
   top: 20px;
   left: 20px;
+`;
+
+export const BackgroundImg = styled.img`
+  width: 308px;
 `;
 
 export const Button = styled.button`

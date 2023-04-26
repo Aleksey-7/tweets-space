@@ -7,6 +7,7 @@ import {
   Button,
   Decoration,
   LogoImg,
+  BackgroundImg,
   Text,
   TextWrap,
   Wrap,
@@ -37,7 +38,7 @@ export const Tweet = ({
   return (
     <Wrap>
       <LogoImg src={logo} alt="logo" width="76" />
-      <img src={bgImg} alt="bg-img" width="308" />
+      <BackgroundImg src={bgImg} alt="background image" width="308" />
       <AvatarWrap>
         <Avatar src={avatar} alt={user} width="64" />
       </AvatarWrap>
