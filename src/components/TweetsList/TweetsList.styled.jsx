@@ -30,7 +30,8 @@ export const LoadMoreBtn = styled.button`
   border: 2px solid #5736a3;
   cursor: pointer;
   transition: box-shadow 200ms ease-in-out;
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: 0 0 10px 0 #5736a3 inset, 0 0 10px 4px #5736a3;
   }
 `;
