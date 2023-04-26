@@ -45,6 +45,7 @@ export const Button = styled.button`
     background-color: transparent;
     box-shadow: 0 0 10px 0 #5736a3 inset, 0 0 10px 4px #5736a3;
     border: 2px solid #5736a3;
+  }
 `;
 
 export const Decoration = styled.div`
